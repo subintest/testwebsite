@@ -3,4 +3,3 @@ deployment:
     branch: development
     codedeploy:
       my-app: my-testapp
-        deployment_group: staging-instance-group
