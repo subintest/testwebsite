@@ -1,0 +1,9 @@
+deployment:
+  type: opsworks
+  environments:
+    production:
+      stack_name: 'website'
+      app_name: 'my test app'
+jira:
+  username: <%= ENV['JIRA_USER'] %>
+  password: <%= ENV['JIRA_PASS'] %>
