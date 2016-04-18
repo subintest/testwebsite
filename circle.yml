@@ -1,5 +1,5 @@
 deployment:
   staging:
-    branch: development
+    branch: master
     codedeploy:
       my-app: my-testapp
