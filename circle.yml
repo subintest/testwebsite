@@ -3,7 +3,7 @@ deployment:
   production:
     branch: [master]
     commands:
-      - /bin/true  
+      - cd ./deploy; bundle install; bundle exec crichq-shipper deploy 
 machine:
   java:
     version: oraclejdk8
