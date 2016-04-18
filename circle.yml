@@ -2,7 +2,8 @@
 deployment:
   production:
     branch: [master]
-      
+    commands:
+      - /bin/true  
 machine:
   java:
     version: oraclejdk8
