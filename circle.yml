@@ -3,5 +3,5 @@ deployment:
   production:
     branch: [master]
     
-    commands:
+    codedeploy:
       
