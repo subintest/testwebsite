@@ -3,11 +3,11 @@ deployment:
   production:
     branch: [master]
       
-    machine:
-      java:
+machine:
+  java:
     version: oraclejdk8
-      dependencies:
-      pre:
+dependencies:
+  pre:
     - sudo pip install html5validator
 test:
   override:
