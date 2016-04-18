@@ -7,7 +7,7 @@ deployment:
       java:
     version: oraclejdk8
       dependencies:
-  pre:
+      pre:
     - sudo pip install html5validator
 test:
   override:
