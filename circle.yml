@@ -4,4 +4,4 @@ deployment:
     branch: [master]
     
     commands:
-      cd ./deploy;
+      
